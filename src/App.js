@@ -9,11 +9,11 @@ function App() {
     <BrowserRouter>
       <div className="App">
         <Routes>
-          <Route path="/LandingPage" element={<LandingPage/>} />
+          <Route path="/" element={<LandingPage/>} />
  
         </Routes>
       </div>
     </BrowserRouter>
   );
 }
-export default LandingPage;
+export default App;
