@@ -4,29 +4,33 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import "../pages/landingpage.css";
 const LandingPage = () => {
     return (
-        <Navbar bg="light" expand="lg">
+        <Navbar className="py-4" bg="light" expand="lg">
           <Container fluid>
-            <Navbar.Brand href="#">MEDSENDER</Navbar.Brand>
+          <img id="logo1" src="https://uploads-ssl.webflow.com/626c4dca54241075dfcab9dd/626c4dca542410798ecab9f2_medsender_logo%25402x-p-500.png"/>
             <Navbar.Toggle aria-controls="navbarScroll" />
             <Navbar.Collapse id="navbarScroll">
               <Nav
                 className="me-auto my-2 my-lg-0"
                 style={{ maxHeight: '100px' }}
                 navbarScroll>
-                <NavDropdown title="Solutions" id="navbarScrollingDropdown">
+                <NavDropdown className="" title="Solutions" id="navbarScrollingDropdown">
                   <NavDropdown.Item href="#">
-                    <h1>Medsender Fax</h1>
-                    <p>The easiets way to send and receive your patient forms and faxes</p>
+                    <img src="https://uploads-ssl.webflow.com/626c4dca54241075dfcab9dd/626c4dca54241004fccaba0a_Medsender%20Fax%403x.svg"/>
+                    <h6>Medsender Fax</h6>
+                    <p className='p1'>The easiest way to send and receive your patient forms and faxes</p>
                 </NavDropdown.Item>
                   <NavDropdown.Item href="#">
-                    <h1>Med Sender AI</h1>
-                    <p>Get faxes loaded into the patient chart with easy EMR integration</p>
+                    <img src="https://uploads-ssl.webflow.com/626c4dca54241075dfcab9dd/626c4dca5424102749caba04_MedSender%20AI%403x.svg"/>
+                    <h6>Med Sender AI</h6>
+                    <p className='p1'>Get faxes loaded into the patient chart with easy EMR integration</p>
                   </NavDropdown.Item>
                   <NavDropdown.Item href="#">
-                    <h1>Medsender Fax API</h1>
-                    <p>Free yourself up from manual, time-consuming tasks</p>
+                    <img src="https://uploads-ssl.webflow.com/626c4dca54241075dfcab9dd/626c4dca5424108d1dcaba07_Medsender%20Fax%20API%403x.svg"/>
+                    <h6>Medsender Fax API</h6>
+                    <p className='p1'>Free yourself up from manual, time-consuming tasks</p>
                   </NavDropdown.Item>
                 </NavDropdown>
                 <NavDropdown title="Resources" id="navbarScrollingDropdown">
@@ -35,18 +39,19 @@ const LandingPage = () => {
                     <NavDropdown.Item href="#">Contact</NavDropdown.Item>
                     <NavDropdown.Item href="#">Support</NavDropdown.Item>
                 </NavDropdown>
-                <Nav.Link href="#">Partners</Nav.Link>
-                <Nav.Link href="#">Pricing</Nav.Link>
-                <NavDropdown title="About" id="navbarScrolllingDropdown">
+                  <Nav.Link id="navbarScrollingDropdown" href="#">Partners</Nav.Link>
+                  <Nav.Link id="navbarScrollingDropdown" href="#">Pricing</Nav.Link>
+                <NavDropdown title="About" id="navbarScrollingDropdown">
                 <NavDropdown.Item href="#">Our Mission</NavDropdown.Item>
                 <NavDropdown.Item href="#">Careers</NavDropdown.Item>
                 </NavDropdown>
-              </Nav>
-              <a href="/" target="self">Log In</a>
-              <Button><a href="/" class="btn btn primary">Book a Demo</a></Button>
+              <Nav.Link id="navbarScrollingDropdown" className="log-in" href="#">Log in</Nav.Link>
+              <a href="/" className="button">Book a Demo</a>
+            </Nav>
             </Navbar.Collapse>
           </Container>
         </Navbar>
       );
 };
+
 export default LandingPage;

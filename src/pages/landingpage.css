@@ -1,0 +1,50 @@
+*{
+    font-family: sans-serif;
+}
+#logo1{
+    height: 6vh;
+    width: 12vw;
+    margin-right: 250px;
+    margin-left: 80px;
+    
+}
+#navbarScrollingDropdown{
+    margin-right: 18px;
+    font-size: 15px;
+    font-weight: 400;
+}
+h4{
+    font-size: small;
+}
+.button{
+    background-color: #662c89;
+    border: none;
+    color: white;
+    padding: 9px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: 10px;
+    font-weight: 500;
+    transition: 350ms; 
+}
+.log-in{
+    margin-left: 100px;
+}
+h6{
+    font-size: medium;
+    font-weight: 500;
+    color: #46265a;
+}
+p{
+    font-size: small;
+}
+.p1{
+    font-weight: 600;
+}
+.resources{
+    font-size: smaller;
+}
