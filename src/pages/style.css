@@ -1,0 +1,142 @@
+.row{
+    background-color: whitesmoke;
+    height: 100vh;
+    /* position: fixed; */
+}
+*{
+    font-family: sans-serif;
+}
+#logo1{
+    height: 6vh;
+    width: 12vw;
+    margin-right: 250px;
+    margin-left: 70px;  
+}
+#navbarScrollingDropdown{
+    margin-right: 20px;
+    font-size: 15px;
+    font-weight: 400;
+}
+h4{
+    font-size: small;
+}
+.button1{
+    background-color: #662c89;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: 10px;
+    font-weight: 500;
+    transition: 350ms; 
+}
+.button2{
+    background-color: #aea5b3;
+    border: none;
+    color: rgb(252, 247, 251);
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: 10px;
+    font-weight: 500;
+    transition: 350ms;
+    margin-left: 10px;
+}
+.log-in{
+    margin-left: 110px;
+}
+h6{
+    font-size: medium;
+    font-weight: 500;
+    color: #46265a;
+}
+p{
+    font-size: small;
+}
+.p1{
+    font-weight: 600;
+}
+.resources{
+    font-size: smaller;
+}
+.line-break{
+    background-color: #9f3adf;
+}
+.vertical {
+    border-left: 1px solid rgb(98, 28, 131);
+    height: 40px;
+    position:absolute;
+    left: 75%;
+}
+.gg-lock {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 12px;
+    height: 11px;
+    border: 2px solid;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom: transparent;
+    margin-top: -12px
+}
+.header1{
+    font-family: 'DM Sans',sans-serif;
+    color: #8524c2;
+    font-weight: 700;
+    font-size: medium;
+    margin-top: 110px;
+    float: left;
+    margin-left: 100px;
+}
+.col-3{
+    margin-top: 130px;
+    font-size: large;
+    font-family: 'DM Sans',sans-serif;
+    color: #2f2f2f;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    text-align: left;
+    font-weight: bold;
+}
+.img-fluid{
+    width: auto;
+    height: auto;
+    text-align: center;
+    z-index: 111;
+}
+.jumbotron{
+    margin-top: 150px;
+}
+.cols0{
+    font-family: 'DM Sans',sans-serif;
+    color: #2f2f2f;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+}
+.details1{
+    font-weight: bold;
+    color: #333131;
+    font-family: sans-serif;
+    text-align: justify;
+    margin-left:100px;
+}
+.display-6{
+    margin-left: 100px;
+    margin-top: 210px;    
+}
+.buttons{
+    margin-left: 100px;
+}

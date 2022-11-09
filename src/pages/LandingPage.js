@@ -3,10 +3,10 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import "../pages/landingpage.css";
+import "../pages/Landing.css";
 const LandingPage = () => {
     return (
-        <Navbar className="py-4" bg="light" expand="lg">
+        <Navbar style={{position: "fixed"}} className="py-3" bg="white" expand="lg">
           <Container fluid>
           <img alt="logo" id="logo1" src="https://uploads-ssl.webflow.com/626c4dca54241075dfcab9dd/626c4dca542410798ecab9f2_medsender_logo%25402x-p-500.png"/>
             <Navbar.Toggle aria-controls="navbarScroll" />
