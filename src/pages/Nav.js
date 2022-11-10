@@ -3,8 +3,8 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import "../pages/Landing.css";
-const LandingPage = () => {
+import "../pages/Nav.css";
+const Nav = () => {
     return (
         <Navbar style={{position: "fixed"}} className="py-3" bg="white" expand="lg">
           <Container fluid>
@@ -54,4 +54,4 @@ const LandingPage = () => {
       );
 };
 
-export default LandingPage;
+export default Nav;

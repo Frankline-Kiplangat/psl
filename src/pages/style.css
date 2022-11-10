@@ -140,3 +140,7 @@ p{
 .buttons{
     margin-left: 100px;
 }
+.grid-container{
+    display: flex;
+    margin-left: auto;
+}
