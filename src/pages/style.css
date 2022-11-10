@@ -1,10 +1,10 @@
 .row{
     background-color: whitesmoke;
-    height: 100vh;
-    /* position: fixed; */
 }
 *{
     font-family: sans-serif;
+    box-sizing: border-box;
+
 }
 #logo1{
     height: 6vh;
@@ -140,7 +140,53 @@ p{
 .buttons{
     margin-left: 100px;
 }
-.grid-container{
-    display: flex;
-    margin-left: auto;
+.grid-item{
+    width: 150px;
+    height: 40px;
+    display: -ms-inline-grid;
+    margin-left:20px;
+    display: inline-flex;
+    text-align: center;
 }
+.grid-container{
+    text-align: center;
+    margin-top: 100px;
+}
+h5{
+    font-size: small;
+    font-weight: 700;
+}
+
+h1{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 700;
+    font-size: 21px;
+    margin-top: 110px;
+  }
+  .row:after {
+    content: "";
+    display: inline-flex;
+    clear: both;
+  }
+  .column {
+    width: 100%;
+    padding: 50px;
+  }
+  .img2{
+    width: 50%;
+    height: auto;
+    border: 0;
+    max-width: 100%;
+    margin-top: 0px;
+    float: right;
+    margin-top: 10px;
+}
+ .med-link{
+    text-decoration: none;
+    color: #9e6dbd;
+    font-weight: bold;
+    font-size: 16px;
+
+ } 

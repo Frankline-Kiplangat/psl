@@ -1,7 +1,7 @@
 import React from "react";
-import { Row } from "react-bootstrap";
 import HomeImage from "./images/psl_Hero.jpg"
 import "../pages/style.css";
+import img2 from "./images/img2.png"
 import img3 from "./images/img3.png"
 import img4 from "./images/img4.png"
 import img5 from "./images/img5.png"
@@ -9,49 +9,62 @@ import img6 from "./images/img6.png"
 
 function Home() {
   return (
-    <Row className="row">
-      <div className="row">
-        <div className="col-sm-6">
-          <h className="header1">The #1 HIPAA-Compliant Online Fax Service</h>
-          <br /><br />
-          <div class="jumbotron">
-            <p class="display-6">Healthcare providers: It's <br />time to upgrade your<br />faxing solution</p>
-            <div className="details1">
-              <p>Medsender is an easy-to-use, HIPAA-compliant online fax <br />solution.
-                Healthcare communications, simplified.</p>
-            </div>
-            <div className="buttons">
-              <a href="/" className="button1">Book a Demo</a>
-              <a href="/" className="button2">Watch Video</a>
-            </div>
+    <div className="row">
+      <div className="col-sm-6">
+        <h className="header1">The #1 HIPAA-Compliant Online Fax Service</h>
+        <br /><br />
+        <div class="jumbotron">
+          <p class="display-6">Healthcare providers: It's <br />time to upgrade your<br />faxing solution</p>
+          <div className="details1">
+            <p>Medsender is an easy-to-use, HIPAA-compliant online fax <br />solution.
+              Healthcare communications, simplified.</p>
+          </div>
+          <div className="buttons">
+            <a href="/" className="button1">Book a Demo</a>
+            <a href="/" className="button2">Watch Video</a>
           </div>
         </div>
-        <div className="col-sm-6">
-          <img
-            src={HomeImage}
-            alt="home pic"
-            className="img-fluid"
-            style={{ maxHeight: "400px", height: "330px", marginTop: "180px", width: "500px" }}/>
-        </div>
       </div>
-      <div>
-        <h4>Trusted by thousands of healthcare providers</h4>
+      <div className="col-sm-6">
+        <img
+          src={HomeImage}
+          alt="home pic"
+          className="img-fluid"
+          style={{ maxHeight: "400px", height: "330px", marginTop: "180px", width: "500px" }} />
       </div>
       <div className="grid-container">
-      <div className="grid-item">
-      <img src={img3} alt="img3"/>
+        <h5>Trusted by thousands of healthcare providers</h5><br />
+        <img className="grid-item" src={img3} alt="img3" />
+        <img className="grid-item" src={img4} alt="img4" />
+        <img className="grid-item" src={img5} alt="img5" />
+        <img className="grid-item" src={img6} alt="img6" />
       </div>
-      <div className="grid-item">
-      <img src={img4} alt="img4"/>
+      <div>
+        <h1><img className="img-logo" alt="" src="https://uploads-ssl.webflow.com/626c4dca54241075dfcab9dd/626c4dca5424106173caba01_logo_icon%403x.svg" /><br /><br />
+          100% HIPAA-compliant faxing
+        </h1>
       </div>
-      <div className="grid-item">
-      <img src={img5} alt="img5"/>
+      <div className="row">
+        <div className="column">
+          <img alt="" src="https://uploads-ssl.webflow.com/626c4dca54241075dfcab9dd/626c4dca54241004fccaba0a_Medsender%20Fax%403x.svg" />
+          <h2>
+            The easiest way to send and
+            receive<br /> patient forms
+            and faxes
+          </h2>
+          <p className="paragraph-copy">Providers and staff have access to faxes anytime, anywhere.</p>
+          <ul>
+            <li>Upload and merge multiple files</li>
+            <li>Send and receive HIPAA-compliant <br />email notifications</li>
+            <li>Track abd confirm delivery online</li>
+          </ul>
+          <a href="/" target="self" className="med-link">Learn More About Medsender Fax</a>
+          <div className="column">
+            <img className="img2" src={img2} alt="" />
+          </div>
+        </div>
       </div>
-      <div className="grid-item">
-      <img src={img6} alt="img6"/>
-      </div>
-      </div>
-    </Row>
+    </div>
   );
 }
 
