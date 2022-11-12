@@ -1,12 +1,10 @@
 import React from "react";
 import HomeImage from "./images/psl_Hero.jpg"
 import "../pages/style.css";
-import img2 from "./images/img2.png"
 import img3 from "./images/img3.png"
 import img4 from "./images/img4.png"
 import img5 from "./images/img5.png"
 import img6 from "./images/img6.png"
-
 function Home() {
   return (
     <div className="row">
@@ -43,26 +41,6 @@ function Home() {
         <h1><img className="img-logo" alt="" src="https://uploads-ssl.webflow.com/626c4dca54241075dfcab9dd/626c4dca5424106173caba01_logo_icon%403x.svg" /><br /><br />
           100% HIPAA-compliant faxing
         </h1>
-      </div>
-      <div className="row">
-        <div className="column">
-          <img alt="" src="https://uploads-ssl.webflow.com/626c4dca54241075dfcab9dd/626c4dca54241004fccaba0a_Medsender%20Fax%403x.svg" />
-          <h2>
-            The easiest way to send and
-            receive<br /> patient forms
-            and faxes
-          </h2>
-          <p className="paragraph-copy">Providers and staff have access to faxes anytime, anywhere.</p>
-          <ul>
-            <li>Upload and merge multiple files</li>
-            <li>Send and receive HIPAA-compliant <br />email notifications</li>
-            <li>Track abd confirm delivery online</li>
-          </ul>
-          <a href="/" target="self" className="med-link">Learn More About Medsender Fax</a>
-          <div className="column">
-            <img className="img2" src={img2} alt="" />
-          </div>
-        </div>
       </div>
     </div>
   );

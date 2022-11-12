@@ -1,0 +1,39 @@
+
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 2px;
+    border-radius: 40%;
+  }
+  
+  .fa:hover {
+      opacity: 0.5;
+  }
+  
+  .fa-facebook {
+    background:#45044b;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #45044b;
+    color: white;
+  }
+  .fa-linkedin {
+    background: #45044b;
+    color: white;
+  }
+.text-reset{
+    text-decoration: none;
+}
+.social-links{
+    margin-top: 50px;
+}
+footer{
+    text-decoration: none;
+    text-align: center;
+}
+
