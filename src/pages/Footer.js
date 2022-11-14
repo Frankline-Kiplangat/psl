@@ -108,7 +108,7 @@ export default function App() {
                 </p>
                 <p>
                   <a href='/' className='text-reset'>
-                    Reviews
+                  Reviews
                   </a>
                 </p>
               </MDBCol>

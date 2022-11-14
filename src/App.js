@@ -11,13 +11,13 @@ function App() {
   return (
     <Router>
     <NavBar />
+    {/* <NavBar2 /> */}
+    {/* <Home1 /> */}
     <Home />
     <Home2 />
     <Footer />
 
     <Routes>
-        <Route exact path='/Footer' element={<Footer />}/>
-
     </Routes>
     </Router>
   );

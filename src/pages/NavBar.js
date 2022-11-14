@@ -15,7 +15,7 @@ const NavBar = () => {
             className="me-auto my-2 my-lg-0"
             style={{ maxHeight: '' }}
             navbarScroll>
-            <NavDropdown className="" title="Solutions" id="navbarScrollingDropdown">
+            <NavDropdown className="solutions" title="Solutions" id="navbarScrollingDropdown">
               <NavDropdown.Item href="#">
                 <img alt="img1" src="https://uploads-ssl.webflow.com/626c4dca54241075dfcab9dd/626c4dca54241004fccaba0a_Medsender%20Fax%403x.svg" />
                 <h6>Medsender Fax</h6>

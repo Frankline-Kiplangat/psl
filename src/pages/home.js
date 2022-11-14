@@ -7,7 +7,8 @@ import img5 from "./images/img5.png"
 import img6 from "./images/img6.png"
 function Home() {
   return (
-    <div className="row">
+    <div className="container">
+      <div className="row">
       <div className="col-sm-6">
         <h className="header1">The #1 HIPAA-Compliant Online Fax Service</h>
         <br /><br />
@@ -29,6 +30,7 @@ function Home() {
           alt="home pic"
           className="img-fluid"
           style={{ maxHeight: "400px", height: "330px", marginTop: "180px", width: "500px" }} />
+      </div>
       </div>
       <div className="grid-container">
         <h5>Trusted by thousands of healthcare providers</h5><br />
