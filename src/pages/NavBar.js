@@ -4,11 +4,12 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import "../pages/NavBar.css";
+import logo from "../pages/images/logo.png"
 const NavBar = () => {
   return (
-    <Navbar style={{ position: "fixed" }} className="py-3" bg="white" expand="lg">
+    <Navbar style={{ position:"top-fixed" }} className="py-3" bg="white" expand="lg">
       <Container fluid>
-        <a href="/"><img alt="logo" id="logo1" src="https://uploads-ssl.webflow.com/626c4dca54241075dfcab9dd/626c4dca542410798ecab9f2_medsender_logo%25402x-p-500.png" /></a>
+        <a href="/"><img src={logo} style={{ height: "6vh", marginLeft: "40px" , width: "150px" }} className="footer-logo" alt="" /></a>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
@@ -45,7 +46,7 @@ const NavBar = () => {
               <NavDropdown.Item href="#">Careers</NavDropdown.Item>
             </NavDropdown>
             <div className="vertical"></div> <br />
-            <Nav.Link id="navbarScrollingDropdown" className="log-in" href="#">Log in</Nav.Link>
+            <Nav.Link className="log-in" href="/">Log in</Nav.Link>
             <a href="/" className="button">Book a Demo</a>
           </Nav>
         </Navbar.Collapse>

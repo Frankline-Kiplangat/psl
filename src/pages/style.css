@@ -1,10 +1,11 @@
 *{
     font-family: sans-serif;
+    box-sizing: border-box;
 
 }
 .row{
     height: auto;
-    background-color: whitesmoke(255, 255, 255, 0.856);
+    background-color: white;
 }
 #logo1{
     height: 6vh;
@@ -33,7 +34,7 @@ h4{
     border-radius: 10px;
     font-weight: 10px;
     font-weight: 500;
-    transition: 350ms; 
+    transition: 350ms;
 }
 .button2{
     background-color: #aea5b3;
@@ -50,9 +51,6 @@ h4{
     font-weight: 500;
     transition: 350ms;
     margin-left: 20px;
-}
-.log-in{
-    margin-left: 60px;
 }
 h6{
     font-size: medium;
@@ -78,7 +76,7 @@ p{
     left: 75%;
 }
 .gg-lock {
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     position: relative;
     display: block;
     transform: scale(var(--ggs,1));
@@ -95,7 +93,7 @@ p{
     color: #8524c2;
     font-weight: 700;
     font-size: medium;
-    margin-top: 110px;
+    margin-top: 40px;
     float: left;
     margin-left: 60px;
 }
@@ -192,17 +190,15 @@ h1{
  }
 
   .img7{
-    width: 650px;
+    width: 100%;
     height: 160px;
     vertical-align: middle;
-    display: inline-block;
-    margin-top: auto;
   }
   .column1{
     height: auto;
     background-color: whitesmoke;
     column-count: 2;
-    padding: 50px;
+    padding: 4%;
   }
   .column2{
     column-count: 2;
@@ -213,12 +209,11 @@ h1{
   .img8{
     width: 90%;
     height: auto;
-    border: 0;
     max-width: 100%;
   }
   span{
     color: #8524c2;
-    font-size: 50px;
+    font-size: 30px;
     font-weight: bolder;
     font-family: sans-serif;
   }
@@ -281,3 +276,18 @@ h1{
     font-size: 20px;
     font-weight: 700;
 }
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
