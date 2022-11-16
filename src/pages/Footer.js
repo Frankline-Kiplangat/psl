@@ -21,12 +21,6 @@ export default function App() {
                   <p>447 Broadway 2nd Fl
                     New York, NY 10013</p>
                 </div>
-                <div className='social-links'>
-                  <p>Follow Us</p>
-                  <a href="/" class="fa fa-facebook"></a>
-                  <a href="/" class="fa fa-twitter"></a>
-                  <a href="/" class="fa fa-linkedin"></a>
-                </div>
               </MDBCol>
               <MDBCol md="2" lg="2" xl="2" className='mx-auto mb-4'>
                 <h6 className='fw-bold mb-4'>Solutions</h6>
@@ -115,7 +109,19 @@ export default function App() {
             </MDBRow>
           </MDBContainer>
         </section>
-      
+
+        <MDBContainer>
+        <MDBRow className='mt-3'>
+        <MDBCol>
+        <div className='social-links'>
+                  <p className="fw-bold mb-4">Follow Us</p>
+                  <a href="/" class="fa fa-facebook"></a>
+                  <a href="/" class="fa fa-twitter"></a>
+                  <a href="/" class="fa fa-linkedin"></a>
+        </div>
+        </MDBCol>
+        </MDBRow>
+        </MDBContainer>
         <div className='footer-link2'>
           <footer><p>&copy; Medsender Inc, 2022 | <a href='/'>Privacy Policy</a>| Terms of Use</p></footer>
         </div>
