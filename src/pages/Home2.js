@@ -83,13 +83,13 @@ function Home2() {
             <p className="author">Zaka S.<br />
               Urgent Care - Beverly</p>
           </div>
-          <a className="prev" onClick={"plusSlides(-1)"}>❮</a>
-          <a className="next" onClick={"plusSlides(1)"}>❯</a>
+          <a className="prev" onClick="plusSlides(-1)">❮</a>
+          <a className="next" onClick="plusSlides(1)">❯</a>
         </div>
         <div style={{ textAlign: "center" }}>
-          <span className="dot" onclic={"currentSlide(1)"}></span>
-          <span className="dot" onClick={"currentSlide(2)"}></span>
-          <span className="dot" onClick={"currentSlide(3)"}></span>
+          <span className="dot" onclic="currentSlide(1)"></span>
+          <span className="dot" onClick="currentSlide(2)"></span>
+          <span className="dot" onClick="currentSlide(3)"></span>
         </div>
         <div className="column4">
           <h3 className="h_copy"><img src="https://uploads-ssl.webflow.com/626c4dca54241075dfcab9dd/626c4dca5424106173caba01_logo_icon%403x.svg" alt="" />
