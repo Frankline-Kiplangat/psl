@@ -9,7 +9,7 @@ const NavBar = () => {
   return (
     <Navbar style={{ position:"top-fixed" }} className="py-3" bg="white" expand="lg">
       <Container fluid>
-        <a href="/"><img src={logo} style={{ height: "6vh", marginLeft: "40px" , width: "150px" }} className="footer-logo" alt="" /></a>
+        <a href="/SenderFax"><img src={logo} style={{ height: "6vh", marginLeft: "40px" , width: "150px" }} className="footer-logo" alt="" /></a>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
@@ -46,7 +46,7 @@ const NavBar = () => {
               <NavDropdown.Item href="#">Careers</NavDropdown.Item>
             </NavDropdown>
             <div className="vertical"></div> <br />
-            <Nav.Link className="log-in" href="/">Log in</Nav.Link>
+            <Nav.Link className="log-in" href="/LogIn">Log in</Nav.Link>
             <a href="/" className="button">Book a Demo</a>
           </Nav>
         </Navbar.Collapse>

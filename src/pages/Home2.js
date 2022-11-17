@@ -87,7 +87,7 @@ function Home2() {
           <a className="next" onClick="plusSlides(1)">❯</a>
         </div>
         <div style={{ textAlign: "center" }}>
-          <span className="dot" onclic="currentSlide(1)"></span>
+          <span className="dot" onClic="currentSlide(1)"></span>
           <span className="dot" onClick="currentSlide(2)"></span>
           <span className="dot" onClick="currentSlide(3)"></span>
         </div>
