@@ -46,8 +46,8 @@ const NavBar = () => {
               <NavDropdown.Item href="#">Careers</NavDropdown.Item>
             </NavDropdown>
             <div className="vertical"></div> <br />
-            <Nav.Link className="log-in" href="/LogIn">Log in</Nav.Link>
-            <a href="/" className="button">Book a Demo</a>
+            <Nav.Link target="_blank" className="log-in" href="/LogIn">Log in</Nav.Link>
+            <a href="/" target="_blank" className="button">Book a Demo</a>
           </Nav>
         </Navbar.Collapse>
       </Container>

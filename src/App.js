@@ -19,7 +19,7 @@ function App() {
     <Footer />
     <Routes>
     <Route  path='/LogIn' exact element={<LogIn />} />
-    <Route  path='/SenderFax' exact element={<SenderFax />} />
+    {/* <Route  path='/SenderFax' exact element={<SenderFax />} /> */}
 
 
 

@@ -3,6 +3,7 @@
     box-sizing: border-box;
 
 }
+
 .row{
     height: auto;
     background-color: white;
@@ -198,7 +199,7 @@ h1{
     height: auto;
     background-color: whitesmoke;
     column-count: 2;
-    padding: 4%;
+    padding: 5%;
   }
   .column2{
     column-count: 2;
