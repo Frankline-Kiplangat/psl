@@ -4,7 +4,6 @@ import img9 from "../images/img9.png"
 import "../Solutions/Solutions.css"
 import img10 from "../images/img10.png"
 import img11 from "../images/img11.png"
-import NavBar from "../NavBar";
 
 function SenderFax() {
     return (
