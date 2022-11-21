@@ -4,12 +4,14 @@ import img9 from "../images/img9.png"
 import "../Solutions/Solutions.css"
 import img10 from "../images/img10.png"
 import img11 from "../images/img11.png"
+import NavBar from "../NavBar";
+
 function SenderFax() {
     return (
         <div className="container">
             <div className="row">
                 <div className="col-sm-6">
-                    <img style={{marginTop:"50px"}}src="https://uploads-ssl.webflow.com/626c4dca54241075dfcab9dd/626c4dca54241004fccaba0a_Medsender%20Fax%403x.svg" alt="" className="" />
+                    <img style={{ marginTop: "50px" }} src="https://uploads-ssl.webflow.com/626c4dca54241075dfcab9dd/626c4dca54241004fccaba0a_Medsender%20Fax%403x.svg" alt="" className="" />
                     <div class="jumbotron">
                         <p class="display-6">Finally, a better way to send, receive,<br />and manage faxes</p>
                         <div className="details1">
@@ -119,8 +121,13 @@ function SenderFax() {
                     it’s a simple “match this bit with that bit” calculation.
                     Our automation features are built to assist you with those pesky repetitive tasks that no one wants to do.</p>
             </div>
+            <div style={{textAlign:"center"}} className="">
+                <h1>Still have questions?</h1>
+                <p >if you have more questions, reach out</p>
+                <a href="/" className="button1">View All FAQs</a>
+                <a href="/" className="button2">Contact Us</a>
+            </div>
         </div>
-        
     );
 }
 

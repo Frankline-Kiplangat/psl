@@ -15,15 +15,11 @@ function App() {
     <NavBar />
     <Home />
     <Home2 />
-    <SenderFax/>
-    <Footer />
     <Routes>
     <Route  path='/LogIn' exact element={<LogIn />} />
-    {/* <Route  path='/SenderFax' exact element={<SenderFax />} /> */}
-
-
-
+    <Route  path='/SenderFax' exact element={<SenderFax />} />
     </Routes>
+    <Footer />
     </Router>
   );
 }

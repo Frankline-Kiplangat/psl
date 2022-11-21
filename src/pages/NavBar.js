@@ -9,7 +9,7 @@ const NavBar = () => {
   return (
     <Navbar style={{ position:"top-fixed" }} className="py-3" bg="white" expand="lg">
       <Container fluid>
-        <a href="/SenderFax"><img src={logo} style={{ height: "6vh", marginLeft: "40px" , width: "150px" }} className="footer-logo" alt="" /></a>
+        <a href="/Home"><img src={logo} style={{ height: "6vh", marginLeft: "40px" , width: "150px" }} className="footer-logo" alt="" /></a>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
@@ -17,7 +17,7 @@ const NavBar = () => {
             style={{ maxHeight: '' }}
             navbarScroll>
             <NavDropdown className="solutions" title="Solutions" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="#">
+              <NavDropdown.Item href="/SenderFax" target="_blank">
                 <img alt="img1" src="https://uploads-ssl.webflow.com/626c4dca54241075dfcab9dd/626c4dca54241004fccaba0a_Medsender%20Fax%403x.svg" />
                 <h6>Medsender Fax</h6>
                 <p className='p1'>The easiest way to send and receive your<br/> patient forms and faxes</p>

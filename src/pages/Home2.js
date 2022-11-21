@@ -3,7 +3,6 @@ import img2 from "./images/img2.png"
 import "../pages/style.css";
 import img7 from "./images/img7.png"
 import img8 from "./images/img8.png"
-
 function Home2() {
   return (
     <div className="container-fluid">
@@ -25,7 +24,6 @@ function Home2() {
             <img src={img2} className="img2" alt="" />
           </div>
         </div>
-
         <div className="column1">
           <img src={img7} className="img7" alt="" />
           <div className="column_copy">
