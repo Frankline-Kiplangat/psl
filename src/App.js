@@ -29,24 +29,7 @@ function App() {
         <Route exact path="/SenderAI">
           <SenderAI />
         </Route>
-        {/* <Route exact path="/footer">
-          <Footer />
-        </Route> */}
-        {/* <Route path="/LogIn" exact element={<LogIn />} /> */}
-        {/* <Route path="/SenderFax" exact element={<SenderFax />} /> */}
       </Switch>
-      {/* <NavBar /> */}
-      {/* <Home /> */}
-      {/* <Home2 /> */}
-      {/* <SenderAI /> */}
-      {/* <LogIn /> */}
-      {/* <SenderFax /> */}
-      {/* <Footer /> */}
-      {/* <Switch>
-    <Route  path='/LogIn' exact element={<LogIn />} />
-    <Route  path='/SenderFax' exact element={<SenderFax />} />
-
-    </Switch> */}
     </Router>
   );
 }
