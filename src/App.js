@@ -18,7 +18,6 @@ function App() {
         <Route exact path="/home">
           <Home />
           <Home2 />
-          <Footer />
         </Route>
         <Route exact path="/login">
           <LogIn />
@@ -30,6 +29,7 @@ function App() {
           <SenderAI />
         </Route>
       </Switch>
+      <Footer />
     </Router>
   );
 }
