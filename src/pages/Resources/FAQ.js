@@ -1,5 +1,5 @@
 import React from "react";
-
+import "../Resources/Resources.css";
 function FAQ() {
     return (
         <div class="jumbotron">
