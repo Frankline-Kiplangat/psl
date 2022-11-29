@@ -10,7 +10,7 @@ function SenderAI() {
         <div className="container">
             <div className="row">
                 <div className="col-sm-6">
-                    <img style={{ marginTop: "50px" }} src="https://uploads-ssl.webflow.com/626c4dca54241075dfcab9dd/626c4dca5424102749caba04_MedSender%20AI%403x.svg" alt="" className="" />
+                    <img style={{ marginTop: "100px" }} src="https://uploads-ssl.webflow.com/626c4dca54241075dfcab9dd/626c4dca5424102749caba04_MedSender%20AI%403x.svg" alt="" className="" />
                     <div class="jumbotron">
                         <p class="display-6">Get faxes automatically<br /> into patient charts</p>
                         <div className="details1">

@@ -10,7 +10,7 @@ function SenderFax() {
         <div className="container">
             <div className="row">
                 <div className="col-sm-6">
-                    <img style={{ marginTop: "50px" }} src="https://uploads-ssl.webflow.com/626c4dca54241075dfcab9dd/626c4dca54241004fccaba0a_Medsender%20Fax%403x.svg" alt="" className="" />
+                    <img style={{ marginTop: "80px" }} src="https://uploads-ssl.webflow.com/626c4dca54241075dfcab9dd/626c4dca54241004fccaba0a_Medsender%20Fax%403x.svg" alt="" className="" />
                     <div class="jumbotron">
                         <p class="display-6">Finally, a better way to send, receive,<br />and manage faxes</p>
                         <div className="details1">
@@ -26,7 +26,7 @@ function SenderFax() {
                         src={img2}
                         alt=""
                         className="img-fluid"
-                        style={{ maxHeight: "400px", height: "330px", marginTop: "100px", width: "500px" }} />
+                        style={{ maxHeight: "400px", height: "320px", marginTop: "150px", width: "100%" }} />
                 </div>
             </div><br />
             <div style={{ marginTop: "50px" }} className="row">

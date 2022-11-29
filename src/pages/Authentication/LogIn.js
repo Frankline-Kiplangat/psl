@@ -7,7 +7,6 @@ import {
 function LogIn() {
     return (
         <MDBContainer className="my-8">
-
             <MDBCard>
                 <MDBRow className='g-0'>
                     <MDBCol md='6'>
