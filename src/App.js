@@ -11,7 +11,7 @@ import LogIn from "./pages/Authentication/LogIn";
 import SenderFax from "./pages/Solutions/SenderFax";
 import SenderAI from "./pages/Solutions/SenderAI";
 import FaxAPI from "./pages/Solutions/FaxAPI";
-
+import FAQ from "./pages/Resources/FAQ";
 function App() {
   return (
     <Router>
@@ -32,6 +32,9 @@ function App() {
         </Route>
         <Route exact path="/FaxAPI">
           <FaxAPI />
+        </Route>
+        <Route exact path="/FAQ">
+          <FAQ />
         </Route>
       </Switch>
       <Footer />

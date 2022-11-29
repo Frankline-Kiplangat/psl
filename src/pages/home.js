@@ -17,7 +17,7 @@ function Home() {
           <div className="details1">
             <p>Medsender is an easy-to-use, HIPAA-compliant online fax <br />solution.
               Healthcare communications, simplified.</p>
-          </div>
+          </div><br/><br/>
           <div className="buttons">
             <a href="/" className="button1">Book a Demo</a>
             <a href="/" className="button2">Watch Video</a>
