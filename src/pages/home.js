@@ -1,5 +1,5 @@
 import React from "react";
-import HomeImage from "./images/psl_Hero.jpg"
+import img1 from "./images/img1.jpg"
 import "../pages/style.css";
 import img3 from "./images/img3.png"
 import img4 from "./images/img4.png"
@@ -26,7 +26,7 @@ function Home() {
       </div>
       <div className="col-sm-6">
         <img
-          src={HomeImage}
+          src={img1}
           alt="home pic"
           className="img-fluid"
           style={{ maxHeight: "400px", height: "330px", marginTop: "180px", width: "500px" }} />

@@ -120,11 +120,19 @@ function SenderFax() {
                     it’s a simple “match this bit with that bit” calculation.
                     Our automation features are built to assist you with those pesky repetitive tasks that no one wants to do.</p>
             </div>
-            <div style={{textAlign:"center"}} className="">
+            <div style={{ textAlign: "center" }} className="">
                 <h1>Still have questions?</h1>
                 <p >if you have more questions, reach out</p>
                 <a href="/" className="button1">View All FAQs</a>
                 <a href="/" className="button2">Contact Us</a>
+            </div>
+            <div className="column4">
+                <h3 className="h_copy"><img src="https://uploads-ssl.webflow.com/626c4dca54241075dfcab9dd/626c4dca5424106173caba01_logo_icon%403x.svg" alt="" />
+                    <br />Ready to get started with<br />
+                    Medsender?</h3>
+                <br />
+                <a href="/" className="button1">Book a Demo</a>
+                <a href="/Contact" className="button2">Contact Us</a>
             </div>
         </div>
     );

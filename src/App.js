@@ -13,6 +13,9 @@ import SenderAI from "./pages/Solutions/SenderAI";
 import FaxAPI from "./pages/Solutions/FaxAPI";
 import FAQ from "./pages/Resources/FAQ";
 import Contact from "./pages/Resources/Contact";
+import Support from "./pages/Resources/Support";
+import Stories from "./pages/Resources/Stories";
+import Partners from "./pages/Resources/Partners";
 function App() {
   return (
     <Router>
@@ -39,6 +42,15 @@ function App() {
         </Route>
         <Route exact path="/Contact">
           <Contact />
+        </Route>
+        <Route exact path="/Support">
+          <Support />
+        </Route>
+        <Route exact path="/Stories">
+          <Stories />
+        </Route>
+        <Route exact path="/Partners">
+          <Partners />
         </Route>
       </Switch>
       <Footer />

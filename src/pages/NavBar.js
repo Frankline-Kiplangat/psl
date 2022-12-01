@@ -35,18 +35,18 @@ const NavBar = () => {
             </NavDropdown>
             <NavDropdown title="Resources" id="navbarScrollingDropdown">
               <NavDropdown.Item href="/FAQ">FAQ</NavDropdown.Item>
-              <NavDropdown.Item href="#">Customer Stories</NavDropdown.Item>
+              <NavDropdown.Item href="/Stories">Customer Stories</NavDropdown.Item>
               <NavDropdown.Item href="/Contact">Contact</NavDropdown.Item>
-              <NavDropdown.Item href="#">Support</NavDropdown.Item>
+              <NavDropdown.Item href="/Support">Support</NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link id="navbarScrollingDropdown" href="#">Partners</Nav.Link>
+            <Nav.Link id="navbarScrollingDropdown" href="/Partners">Partners</Nav.Link>
             <Nav.Link id="navbarScrollingDropdown" href="#">Pricing</Nav.Link>
             <NavDropdown title="About" id="navbarScrollingDropdown">
               <NavDropdown.Item href="#">Our Mission</NavDropdown.Item>
               <NavDropdown.Item href="#">Careers</NavDropdown.Item>
             </NavDropdown>
             <div className="vertical"></div> <br />
-            <Nav.Link target="_blank" className="log-in" href="/LogIn">Log in</Nav.Link>
+            <Nav.Link target="_blank" className="log-in" href="/LogIn">&#xf023;Log in</Nav.Link>
             <a href="/" target="_blank" className="button">Book a Demo</a>
           </Nav>
         </Navbar.Collapse>
