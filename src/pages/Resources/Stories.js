@@ -60,8 +60,9 @@ function Stories() {
                         <img className="quotes" alt="" src="https://uploads-ssl.webflow.com/626c4dca54241075dfcab9dd/626c4dca542410de2dcaba0e_quote_purple%402x.png" />
                         <p style={{ fontWeight: "bold" }}>“With Medsender... I can show someone how to review and merge documents and
                             delete unnecessary information or upload to Nymbl in 10 minutes and they are like, ‘Oh, this is easy, I get it.’”</p>
+                            <br/>
                         <a href="/" className="button3">Read Case Study</a>
-                    </div>
+                    </div><br/>
                     <div className="col-sm-6">
                         <img src={img20} className="img20" alt="" />
                     </div>
