@@ -12,7 +12,7 @@ export default function App() {
             <MDBRow className='mt-3'>
               <MDBCol md="3" lg="4" xl="3" className='mx-auto mb-4'>
                 <h6 className='fw-bold mb-4'>
-                  <img src={logo} style={{ height: "40px", width: "200px" }} className="footer-logo" alt="" /><br />
+                  <img src={logo} style={{ height: "35px", width: "160px" }} className="footer-logo" alt="" /><br />
                   <br/>
                   The #1 Faxing Solution Loved by
                   Healthcare Providers

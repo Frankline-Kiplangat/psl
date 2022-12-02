@@ -16,6 +16,9 @@ import Contact from "./pages/Resources/Contact";
 import Support from "./pages/Resources/Support";
 import Stories from "./pages/Resources/Stories";
 import Partners from "./pages/Resources/Partners";
+import Mission from "./pages/About/Mission";
+import Careers from "./pages/About/Careers";
+import Footer2 from "./pages/Footer2";
 function App() {
   return (
     <Router>
@@ -52,7 +55,14 @@ function App() {
         <Route exact path="/Partners">
           <Partners />
         </Route>
+        <Route exact path="/Mission">
+          <Mission />
+        </Route>
+        <Route exact path="/Careers">
+          <Careers />
+        </Route>
       </Switch>
+      <Footer2 />
       <Footer />
     </Router>
   );

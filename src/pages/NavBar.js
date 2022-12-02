@@ -42,8 +42,8 @@ const NavBar = () => {
             <Nav.Link id="navbarScrollingDropdown" href="/Partners">Partners</Nav.Link>
             <Nav.Link id="navbarScrollingDropdown" href="#">Pricing</Nav.Link>
             <NavDropdown title="About" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="#">Our Mission</NavDropdown.Item>
-              <NavDropdown.Item href="#">Careers</NavDropdown.Item>
+              <NavDropdown.Item href="/Mission">Our Mission</NavDropdown.Item>
+              <NavDropdown.Item href="/Careers">Careers</NavDropdown.Item>
             </NavDropdown>
             <div className="vertical"></div> <br />
             <Nav.Link target="_blank" className="log-in" href="/LogIn">&#xf023;Log in</Nav.Link>

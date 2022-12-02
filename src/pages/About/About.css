@@ -1,0 +1,22 @@
+.story2{
+    margin-top: 70px;
+    height: 35vh;
+    text-align: center;
+    background-color: rgb(219, 210, 210);
+}
+.story2 h3{
+    font-size: 25px;
+    padding-top: 60px;
+}
+.grid{
+    text-align: center;
+}
+.grid p{
+    text-align: center;
+    font-size:16px;
+    color: rgb(70, 67, 67);
+}
+.img21{
+    height: 100%;
+    margin-left: 60px;
+}
