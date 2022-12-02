@@ -35,7 +35,7 @@ function Stories() {
                             places surgery orders. It also allows me to work primarily from home. I don’t really need to go to the office.
                             We use a lot of third-party software to fill the gaps in our current EMR, and Medsender is my favorite."</p>
                         <a href="/" className="button3">Read Case Study</a>
-                    </div>
+                    </div><br/>
                     <div className="col-sm-6">
                         <img src={img18} className="img18" alt="" />
                     </div>

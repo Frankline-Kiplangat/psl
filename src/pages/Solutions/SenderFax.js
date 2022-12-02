@@ -29,7 +29,7 @@ function SenderFax() {
                         style={{ maxHeight: "400px", height: "320px", marginTop: "150px", width: "100%" }} />
                 </div>
             </div><br />
-            <div style={{ marginTop: "50px" }} className="row">
+            <div style={{ marginTop: "50px" }} id="col4" className="row">
                 <div className="col-sm-4">
                     <img src="https://uploads-ssl.webflow.com/626c4dca54241075dfcab9dd/626c4dca542410ff7fcaba24_Fax_1_oneclick%402x.svg" alt="" />
                     <h2 className="">1-click fax sending</h2>

@@ -20,3 +20,18 @@
     height: 100%;
     margin-left: 60px;
 }
+.careers{
+    height: 72vh;
+    background-color: whitesmoke;
+    padding-top: 40px;
+}
+.careers h3{
+    margin-left: 60px;
+    font-size: 26px;
+}
+#col6{
+    margin-left: 60px;
+}
+#col6 h3{
+    font-size: 30px;
+}

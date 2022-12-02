@@ -15,7 +15,7 @@ function Partners() {
             </div>
             <div className="row">
                 <div className="col-sm-6">
-                    <h3>Who can benefit from a partnership with Medsender?</h3>
+                    <h3 style={{marginLeft:"60px"}}>Who can benefit from a partnership with Medsender?</h3>
                     <p style={{ fontWeight: "bold", marginLeft: "60px" }}>Medsender partners with many types of healthcare organizations to
                         modernize communication and enable automation for their clients.
                         If your clients are stuck with dealing with repetitive,

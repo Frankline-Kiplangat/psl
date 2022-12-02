@@ -29,7 +29,7 @@ function SenderAI() {
             <div style={{ textAlign: "center" }} className="">
                 <h1 style={{ fontSize: "30px" }}>Tap into the power of AI to work smarter, <br />not harder</h1>
             </div>
-            <div className="row">
+            <div id="col4" className="row">
                 <div className="col-sm-5">
                     <h3>Automate your repetitive, manual tasks</h3>
                     <p style={{ fontWeight: "bold" }}>Medsender uses artificial intelligence to auto-categorize your faxes,
@@ -40,21 +40,21 @@ function SenderAI() {
                     <img src={img13} id="img13" className="img-fluid" alt="" />
                 </div>
             </div>
-            <div className="img14_row">
+            <div id="col4" className="img14_row">
                 <div id="img14_row" className="row">
                     <div className="col-sm-7">
                         <img src={img14} className="img14" alt="" />
                     </div>
                     <div className="col-sm-5">
-                        <h3 style={{ marginTop: "150px" }}>AI-powered recognition</h3>
+                        <h3 style={{ marginTop: "100px" }}>AI-powered recognition</h3>
                         <p style={{ fontWeight: "bold" }}>Medsender AI automatically reads, labels and fills in record details like patient name,
                             date of birth, and type of document (e.g. referral, refill, labs).</p>
                     </div>
                 </div>
             </div>
-            <div className="row">
+            <div id="col4" className="row">
                 <div className="col-sm-5">
-                    <h3 style={{ marginTop: "200px" }}>Auto-upload to your EMR</h3>
+                    <h3 style={{ marginTop: "100px" }}>Auto-upload to your EMR</h3>
                     <p style={{ fontWeight: "bold" }}>Faxes are automatically labeled and uploaded to the correct patient chart.
                         You don’t have to lift a finger.</p>
                 </div>
@@ -71,7 +71,6 @@ function SenderAI() {
             </div>
             <hr />
             <br/>
-
         </div>
     );
 }
