@@ -1,6 +1,7 @@
 {
   "name": "psl",
   "version": "0.1.0",
+  "home": "https://Frankline-Kiplangat.github.io/psl",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
