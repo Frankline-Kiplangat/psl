@@ -19,6 +19,7 @@ import Partners from "./pages/Resources/Partners";
 import Mission from "./pages/About/Mission";
 import Careers from "./pages/About/Careers";
 import Footer2 from "./pages/Footer2";
+import Pricing from "./pages/Resources/Pricing";
 function App() {
   return (
     <Router>
@@ -60,6 +61,9 @@ function App() {
         </Route>
         <Route exact path="/Careers">
           <Careers />
+        </Route>
+        <Route exact path="/Pricing">
+          <Pricing />
         </Route>
       </Switch>
       <Footer2 />

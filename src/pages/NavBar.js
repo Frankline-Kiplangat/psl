@@ -40,7 +40,7 @@ const NavBar = () => {
               <NavDropdown.Item href="/Support">Support</NavDropdown.Item>
             </NavDropdown>
             <Nav.Link id="navbarScrollingDropdown" href="/Partners">Partners</Nav.Link>
-            <Nav.Link id="navbarScrollingDropdown" href="#">Pricing</Nav.Link>
+            <Nav.Link id="navbarScrollingDropdown" href="/Pricing">Pricing</Nav.Link>
             <NavDropdown title="About" id="navbarScrollingDropdown">
               <NavDropdown.Item href="/Mission">Our Mission</NavDropdown.Item>
               <NavDropdown.Item href="/Careers">Careers</NavDropdown.Item>

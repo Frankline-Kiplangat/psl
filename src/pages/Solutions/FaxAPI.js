@@ -25,7 +25,7 @@ function FaxAPI() {
                     <img alt="" src={img16} id="img16" className="img-fluid" />
                 </div>
             </div>
-            <div style={{ marginTop: "50px" }} className="row">
+            <div id="col4" style={{ marginTop: "50px" }} className="row">
                 <div className="col-sm-4">
                     <img src="https://uploads-ssl.webflow.com/626c4dca54241075dfcab9dd/626c4dca54241025dfcaba30_1_Rest_API%403x.svg" alt="" />
                     <h5 className="">Rest API</h5>

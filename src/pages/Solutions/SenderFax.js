@@ -51,7 +51,7 @@ function SenderFax() {
                 <h1 style={{ textAlign: "center", fontSize: "25px" }} className="">Simplify your healthcare faxing</h1>
                 <br />
                 <div className="row">
-                    <div className="col-sm-5">
+                    <div id="col4" className="col-sm-4">
                         <h3>Full document editing</h3>
                         <p style={{ fontWeight: "bold" }}>Anything you can do on paper, you can do on Medsender. <br />No printing, no PDF editor, no downloads.</p>
                         <ul>
@@ -66,7 +66,7 @@ function SenderFax() {
                     </div>
                 </div>
             </div>
-            <div id="img_row" className="row">
+            <div id="col4" className="row">
                 <div className="col-sm-6">
                     <img src={img10} className="img10" alt="" />
                 </div>
@@ -81,7 +81,7 @@ function SenderFax() {
                     </ul>
                 </div>
             </div>
-            <div className="row">
+            <div id="col4" className="row">
                 <div className="col-sm-5">
                     <h3 style={{ marginTop: "150px" }}>Delivery confirmation</h3>
                     <p style={{ fontWeight: "bold" }}>See what’s happening with your faxes at any time.
