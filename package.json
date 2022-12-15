@@ -1,7 +1,7 @@
 {
   "name": "psl",
   "version": "0.1.0",
-  "home": "https://Frankline-Kiplangat.github.io/psl",
+  "homepage": "https://Frankline-kiplangat.github.io/psl",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -21,7 +21,6 @@
     "web-vitals": "^2.1.4",
     "yarn": "^1.22.19"
   },
-  "homepage": "/Home",
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts --openssl-legacy-provider build",
@@ -29,7 +28,6 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
-
   },
   "eslintConfig": {
     "extends": [
