@@ -115,15 +115,15 @@ export default function App() {
         <MDBCol>
         <div className='social-links'>
                   <p className="fw-bold mb-4">Follow Us</p>
-                  <a href="/" class="fa fa-facebook"></a>
-                  <a href="/" class="fa fa-twitter"></a>
-                  <a href="/" class="fa fa-linkedin"></a>
+                  <a target="_bkank" href="https://www.facebook.com/" class="fa fa-facebook"></a>
+                  <a target="_bkank" href="https://www.twitter.com/" class="fa fa-twitter"></a>
+                  <a target="_bkank" href="https://www.linkedin.com/" class="fa fa-linkedin"></a>
         </div>
         </MDBCol>
         </MDBRow>
         </MDBContainer>
         <div className='footer-link2'>
-          <footer><p>&copy; Medsender Inc, 2022 | <a href='/'>Privacy Policy</a>| Terms of Use</p></footer>
+          <footer><p>&copy; Medsender Inc, 2022 | <a href="/SenderFax">Privacy Policy | Terms of Use</a></p></footer>
         </div>
       </MDBFooter>
     </div>
