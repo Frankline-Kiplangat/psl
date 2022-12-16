@@ -25,15 +25,15 @@ export default function App() {
               <MDBCol md="2" lg="2" xl="2" className='mx-auto mb-4'>
                 <h6 className='fw-bold mb-4'>Solutions</h6>
                 <p>
-                  <a href='/' className='text-reset'>Fax</a>
+                  <a href='/SenderFax' className='text-reset'>Fax</a>
                 </p>
                 <p>
-                  <a href='/' className='text-reset'>
+                  <a href='/SenderAI' className='text-reset'>
                     Automate
                   </a>
                 </p>
                 <p>
-                  <a href='/' className='text-reset'>
+                  <a href='/FaxAPI' className='text-reset'>
                     API
                   </a>
                 </p>
@@ -42,32 +42,32 @@ export default function App() {
               <MDBCol md="3" lg="2" xl="2" className='mx-auto mb-4'>
                 <h6 className='fw-bold mb-4'>Company</h6>
                 <p>
-                  <a href='/' className='text-reset'>
+                  <a href='/Mission' className='text-reset'>
                     About
                   </a>
                 </p>
                 <p>
-                  <a href='/' className='text-reset'>
+                  <a href='/Partners' className='text-reset'>
                     Partners
                   </a>
                 </p>
                 <p>
-                  <a href='/' className='text-reset'>
+                  <a href='/Careers' className='text-reset'>
                     Careers
                   </a>
                 </p>
                 <p>
-                  <a href='/' className='text-reset'>
+                  <a href='/SenderAI' className='text-reset'>
                     HIPAA Compliant
                   </a>
                 </p>
                 <p>
-                  <a href='/' className='text-reset'>
+                  <a href='/Support' className='text-reset'>
                     Security
                   </a>
                 </p>
                 <p>
-                  <a href='/' className='text-reset'>
+                  <a href='/Stories' className='text-reset'>
                     Reviews
                   </a>
                 </p>
@@ -81,17 +81,17 @@ export default function App() {
                   </a>
                 </p>
                 <p>
-                  <a href='/' className='text-reset'>
+                  <a href='/Stories' className='text-reset'>
                     Customer Stories
                   </a>
                 </p>
                 <p>
-                  <a href='/' className='text-reset'>
+                  <a href='/Contact' className='text-reset'>
                     Contact
                   </a>
                 </p>
                 <p>
-                  <a href='/' className='text-reset'>
+                  <a href='/Support' className='text-reset'>
                     Support
                   </a>
                 </p>
@@ -101,7 +101,7 @@ export default function App() {
                   </a>
                 </p>
                 <p>
-                  <a href='/' className='text-reset'>
+                  <a href='/Stories' className='text-reset'>
                   Reviews
                   </a>
                 </p>
