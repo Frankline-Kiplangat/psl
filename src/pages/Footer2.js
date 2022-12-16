@@ -9,7 +9,7 @@ function Footer2 (){
             Medsender?</h3>
           <br />
           <div style={{ textAlign: "center" }}>
-          <a href="/" className="button1">Book a Demo</a>
+          <a href="/Contact" className="button1">Book a Demo</a>
           <a href="/Contact" className="button2">Contact us</a>
           </div>
  

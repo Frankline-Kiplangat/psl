@@ -18,7 +18,7 @@ function Home2() {
             <li>Track and confirm delivery online</li>
           </ul>
           <div>
-            <a href="/" target="self" className="med-link">Learn More About Medsender Fax</a>
+            <a href="/Mission" target="self" className="med-link">Learn More About Medsender Fax</a>
           </div>
           <div>
             <img src={img2} className="img2" alt="" />
@@ -31,7 +31,7 @@ function Home2() {
               <br />
               Get faxes loaded into the patient chart <br />with easy EMR integration</h2>
             <p>Medsender integrates instantly with your EMR so your patient <br />records and documents are always up-to-date.</p>
-            <a href="/" target="self" className="med-link">Learn More About Medsender AI</a>
+            <a href="/Mission" target="self" className="med-link">Learn More About Medsender AI</a>
           </div>
         </div>
         <div className="column2">
@@ -43,7 +43,7 @@ function Home2() {
             <li>No more downloading or uploading documents</li>
           </ul>
           <div>
-            <a href="/" target="self" className="med-link">Learn More About Medsender Fax API </a>
+            <a href="/Mission" target="self" className="med-link">Learn More About Medsender Fax API </a>
           </div>
           <div>
             <img src={img8} className="img8" alt="" />

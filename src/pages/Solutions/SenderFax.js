@@ -17,7 +17,7 @@ function SenderFax() {
                             <p>Medsender is the easiest way for healthcare providers to send <br />and receive secure faxes and patient forms.</p>
                         </div>
                         <div className="buttons">
-                            <a href="/" className="button1">Book a Demo</a>
+                            <a href="/Contact" className="button1">Book a Demo</a>
                         </div>
                     </div>
                 </div>
@@ -123,8 +123,8 @@ function SenderFax() {
             <div style={{ textAlign: "center" }} className="">
                 <h1>Still have questions?</h1>
                 <p >if you have more questions, reach out</p>
-                <a href="/" className="button1">View All FAQs</a>
-                <a href="/" className="button2">Contact Us</a>
+                <a href="/FAQ" className="button1">View All FAQs</a>
+                <a href="/Contact" className="button2">Contact Us</a>
             </div>
             <br />
         </div>

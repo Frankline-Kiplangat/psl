@@ -76,7 +76,7 @@ export default function App() {
               <MDBCol md="3" lg="2" xl="2" className='mx-auto mb-4'>
                 <h6 className='fw-bold mb-4'>Resources</h6>
                 <p>
-                  <a href='/' className='text-reset'>
+                  <a href='/Contact' className='text-reset'>
                     Schedule A Demo
                   </a>
                 </p>

@@ -19,8 +19,8 @@ function Home() {
               Healthcare communications, simplified.</p>
           </div><br/><br/>
           <div className="buttons">
-            <a href="/" className="button1">Book a Demo</a>
-            <a href="/" className="button2">Watch Video</a>
+            <a href="/Contact" className="button1">Book a Demo</a>
+            <a href="https://www.youtube.com/" className="button2">Watch Video</a>
           </div>
         </div>
       </div>

@@ -16,8 +16,8 @@ function FaxAPI() {
                                 providers to send and receive faxes and patient forms.</p>
                         </div>
                         <div className="buttons">
-                            <a href="/" style={{ width: "180px" }} className="button1">Get API Key</a>
-                            <a href="/" className="button2">View Docs</a>
+                            <a href="/FaxAPI" style={{ width: "180px" }} className="button1">Get API Key</a>
+                            <a href="/Support" className="button2">View Docs</a>
                         </div>
                     </div>
                 </div>
@@ -52,8 +52,8 @@ function FaxAPI() {
             <div style={{ textAlign: "center" }} className="">
                 <h1>Still have questions?</h1>
                 <p style={{ fontWeight: "bold" }}>if you have more questions, reach out</p>
-                <a href="/" className="button1">View All FAQs</a>
-                <a href="/" className="button2">Contact Us</a>
+                <a href="/FAQ" className="button1">View All FAQs</a>
+                <a href="/Contact" className="button2">Contact Us</a>
             </div>
             <div className="tab-menu">
                 <a href="#">Python</a>
