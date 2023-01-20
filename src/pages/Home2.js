@@ -2,6 +2,7 @@ import React from "react";
 import img2 from "./images/img2.png"
 import "../pages/style.css";
 import img7 from "./images/img7.png"
+import Footer from '../pages/Footer'
 import img8 from "./images/img8.png"
 function Home2() {
   return (
@@ -92,6 +93,7 @@ function Home2() {
       </div>
       <script src="">
       </script>
+      <Footer />
     </div>
   );
 }

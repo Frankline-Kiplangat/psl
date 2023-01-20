@@ -4,6 +4,7 @@ import img9 from "../images/img9.png"
 import "../Solutions/Solutions.css"
 import img10 from "../images/img10.png"
 import img11 from "../images/img11.png"
+import Footer from '../Footer'
 
 function SenderFax() {
     return (
@@ -127,6 +128,7 @@ function SenderFax() {
                 <a href="/Contact" className="button2">Contact Us</a>
             </div>
             <br />
+            <Footer />
         </div>
     );
 }

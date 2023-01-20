@@ -1,6 +1,7 @@
 import React from "react";
 import "../Solutions/Solutions.css"
 import img16 from "../images/img16.png"
+import Footer from '../Footer'
 
 function FaxAPI() {
     return (
@@ -61,6 +62,7 @@ function FaxAPI() {
                 <a href="#">PHP</a>
             </div>
             <br />
+            <Footer />
         </div>
     );
 }

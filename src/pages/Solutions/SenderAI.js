@@ -4,6 +4,7 @@ import img12 from "../images/img12.jpg"
 import img13 from "../images/img13.png"
 import img14 from "../images/img14.png"
 import img15 from "../images/img15.png"
+import Footer from '../Footer'
 
 function SenderAI() {
     return (
@@ -71,6 +72,7 @@ function SenderAI() {
             </div>
             <hr />
             <br/>
+            <Footer />
         </div>
     );
 }

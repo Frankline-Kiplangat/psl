@@ -5,6 +5,7 @@ import {
     MDBInput,
     MDBTextArea,
 } from 'mdb-react-ui-kit';
+import Footer from '../Footer'
 
 function Contact() {
     return (
@@ -42,6 +43,7 @@ function Contact() {
                 </form>
             </div>
             <br/>
+            <Footer />
         </div>
     );
 }

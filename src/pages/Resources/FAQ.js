@@ -1,5 +1,7 @@
 import React from "react";
 import "../Resources/Resources.css";
+import Footer from '../Footer'
+
 function FAQ() {
     return (
         <div class="jumbotron">
@@ -41,6 +43,7 @@ function FAQ() {
             </div>
         </div>
         <br/>
+        <Footer />
     </div>
     );
 }

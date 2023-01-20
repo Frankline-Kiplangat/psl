@@ -1,6 +1,8 @@
 import React from "react";
 import "../Resources/Resources.css";
 import img1 from "../images/img1.jpg"
+import Footer from '../Footer'
+
 function Partners() {
     return (
         <div class="container-fluid">
@@ -27,6 +29,7 @@ function Partners() {
                 </div>
             </div>
             <br/>
+            <Footer />
         </div>
     );
 }
