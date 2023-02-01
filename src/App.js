@@ -7,6 +7,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Home from "./pages/Home";
 import Home2 from "./pages/Home2";
 import LogIn from "./pages/Authentication/LogIn";
+import Register from "./pages/Authentication/Register";
 import SenderFax from "./pages/Solutions/SenderFax";
 import SenderAI from "./pages/Solutions/SenderAI";
 import FaxAPI from "./pages/Solutions/FaxAPI";
@@ -18,6 +19,7 @@ import Partners from "./pages/Resources/Partners";
 import Mission from "./pages/About/Mission";
 import Careers from "./pages/About/Careers";
 import Pricing from "./pages/Resources/Pricing";
+
 function App() {
   return (
     <Router>
@@ -29,6 +31,9 @@ function App() {
         </Route>
         <Route exact path="/login">
           <LogIn />
+        </Route>
+        <Route exact path="/Register">
+          <Register />
         </Route>
         <Route exact path="/SenderFax">
           <SenderFax />

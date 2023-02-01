@@ -4,6 +4,7 @@ import img17 from "../images/img17.png"
 import img18 from "../images/img18.png"
 import img19 from "../images/img19.png"
 import img20 from "../images/img20.png"
+import Footer from '../Footer'
 
 function Stories() {
     return (
@@ -23,7 +24,7 @@ function Stories() {
                         <img className="quotes" alt="" src="https://uploads-ssl.webflow.com/626c4dca54241075dfcab9dd/626c4dca542410de2dcaba0e_quote_purple%402x.png" />
                         <p style={{ fontWeight: "bold" }}>“Now I can put all our remote workers on Medsender and
                             they can get a fax sitting at their home miles away. It’s been huge for us.”</p>
-                        <a href="/" className="button3">Read Case Study</a>
+                        <a href="/About" className="button3">Read Case Study</a>
                     </div>
                 </div>
                 <br />
@@ -34,7 +35,7 @@ function Stories() {
                         <p style={{ fontWeight: "bold" }}>“Everyone loves it, from our receptionist to the clinical assistant who
                             places surgery orders. It also allows me to work primarily from home. I don’t really need to go to the office.
                             We use a lot of third-party software to fill the gaps in our current EMR, and Medsender is my favorite."</p>
-                        <a href="/" className="button3">Read Case Study</a>
+                        <a href="/About" className="button3">Read Case Study</a>
                     </div><br/>
                     <div className="col-sm-6">
                         <img src={img18} className="img18" alt="" />
@@ -50,7 +51,7 @@ function Stories() {
                         <img className="quotes" alt="" src="https://uploads-ssl.webflow.com/626c4dca54241075dfcab9dd/626c4dca542410de2dcaba0e_quote_purple%402x.png" />
                         <p style={{ fontWeight: "bold" }}>“Now I can put all our remote workers on Medsender and
                             they can get a fax sitting at their home miles away. It’s been huge for us.”</p>
-                        <a href="/" className="button3">Read Case Study</a>
+                        <a href="/About" className="button3">Read Case Study</a>
                     </div>
                 </div>
                 <br />
@@ -61,13 +62,14 @@ function Stories() {
                         <p style={{ fontWeight: "bold" }}>“With Medsender... I can show someone how to review and merge documents and
                             delete unnecessary information or upload to Nymbl in 10 minutes and they are like, ‘Oh, this is easy, I get it.’”</p>
                             <br/>
-                        <a href="/" className="button3">Read Case Study</a>
+                        <a href="/About" className="button3">Read Case Study</a>
                     </div><br/>
                     <div className="col-sm-6">
                         <img src={img20} className="img20" alt="" />
                     </div>
                 </div>
             </div><br/>
+            <Footer />
         </div>
     );
 }

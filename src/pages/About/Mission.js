@@ -2,6 +2,7 @@ import React from "react";
 import "../About/About.css"
 import logo from "../images/logo.png"
 import img21 from "../images/img21.png"
+import Footer from '../Footer'
 function Mission() {
     return (
         <div class="container-fluid">
@@ -25,10 +26,11 @@ function Mission() {
                         <h3 style={{ marginTop: "150px" }}>Join the Team</h3>
                         <p style={{ fontWeight: "bold" }}>We’re centered around helping people as quickly as possible. 
                         If <br/>you’re a genuine, passionate, hard worker, you will fit in with our<br/> remote team.</p>
-                        <a href="/" className="button3">See Open Positions</a>
+                        <a href="/Careers" className="button3">See Open Positions</a>
                     </div>
                 </div>
                 <br/>
+                <Footer />
         </div>
     );
 }

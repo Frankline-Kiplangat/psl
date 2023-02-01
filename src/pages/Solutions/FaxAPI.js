@@ -57,9 +57,9 @@ function FaxAPI() {
                 <a href="/Contact" className="button2">Contact Us</a>
             </div>
             <div className="tab-menu">
-                <a href="#">Python</a>
-                <a href="#">Java</a>
-                <a href="#">PHP</a>
+                <a href="/login">Python</a>
+                <a href="/login">Java</a>
+                <a href="/login">PHP</a>
             </div>
             <br />
             <Footer />

@@ -1,6 +1,7 @@
 import React from "react";
 import img21 from "../images/img21.png"
 import "../About/About.css";
+import Footer from '../Footer'
 function Careers() {
     return (
         <div class="container-fluid">
@@ -47,6 +48,7 @@ function Careers() {
                 </div>
             </div>
             <br/>
+            <Footer />
         </div>
     );
 }

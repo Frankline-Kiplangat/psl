@@ -67,23 +67,23 @@ function Home2() {
         <div className="slideshow-container">
           <h2>Our Customers Love Us</h2>
           <img className="quotes" alt="" src="https://uploads-ssl.webflow.com/626c4dca54241075dfcab9dd/626c4dca542410de2dcaba0e_quote_purple%402x.png" />
-          <div className="mySlides fade">
+          <div className="mySlides">
             <q>This is the must-have add-on (for your EMR). It's so easy to use and I can't imagine<br /> running my practice without Medsender.</q>
             <p className="author">Nahera A., MD<br />Adams Medical Group</p>
           </div>
-          <div className="mySlides fade">
+          <div className="mySlides">
             <q>The efficiency of our practice has improved tremendously. Medsender has improved <br />the turn around time in which my staff is able to address and resolve incoming faxes.</q>
             <p className="author">Jana H.<br />
               Practice Manager NWA Retina Associates</p>
           </div>
-          <div className="mySlides fade">
+          <div className="mySlides">
             <q>As a medical practice, we were constantly running into busy <br />lines, dropped signals and faxes that went missing.
               The entire process is now digital and finished with the click of a button.</q>
             <p className="author">Zaka S.<br />
               Urgent Care - Beverly</p>
           </div>
-          <a className="prev" onClick="plusSlides(-1)">❮</a>
-          <a className="next" onClick="plusSlides(1)">❯</a>
+          <span className="prev" onClick="plusSlides(-1)"> ❮ </span>
+          <span className="next" onClick="plusSlides(1)"> ❯ </span>
         </div>
         <div style={{ textAlign: "center" }}>
           <span className="dot" onClic="currentSlide(1)"></span>
@@ -91,8 +91,6 @@ function Home2() {
           <span className="dot" onClick="currentSlide(3)"></span>
         </div>
       </div>
-      <script src="">
-      </script>
       <Footer />
     </div>
   );

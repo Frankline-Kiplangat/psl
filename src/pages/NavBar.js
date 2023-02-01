@@ -7,7 +7,7 @@ import "../pages/NavBar.css";
 import logo from "../pages/images/logo.png"
 const NavBar = () => {
   return (
-    <Navbar fixed= "top" className="py-3" bg="white" expand="lg">
+    <Navbar fixed= "top" className="py-3" bg="light" expand="lg">
       <Container fluid>
         <a href="/Home"><img src={logo} style={{ height: "6vh", marginLeft: "40px" , width: "150px" }} className="footer-logo" alt="" /></a>
         <Navbar.Toggle aria-controls="navbarScroll" />
@@ -46,8 +46,8 @@ const NavBar = () => {
               <NavDropdown.Item href="/Careers">Careers</NavDropdown.Item>
             </NavDropdown>
             <div className="vertical"></div> <br />
-            <Nav.Link target="_blank" className="log-in" href="/LogIn">&#xf023;Log in</Nav.Link>
-            <a href="/" target="_blank" className="button">Book a Demo</a>
+            <Nav.Link target="_blank" className="log-in" href="/LogIn">Log in</Nav.Link>
+            <a href="/Contact" target="_blank" className="button">Book a Demo</a>
           </Nav>
         </Navbar.Collapse>
       </Container>

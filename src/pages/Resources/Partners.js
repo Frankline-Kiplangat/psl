@@ -12,7 +12,7 @@ function Partners() {
                 <p style={{ fontWeight: "bold", marginLeft: "60px" }}>By partnering with Medsender,
                     you can enable the future of healthcare automation.</p>
                 <div>
-                    <a href="/" className="button4">Contact Us</a>
+                    <a href="/Contact" className="button4">Contact Us</a>
                 </div>
             </div>
             <div className="row">

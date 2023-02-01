@@ -6,7 +6,7 @@ import "../pages/Footer.css";
 export default function App() {
   return (
     <div id='footer'>
-            <div className="container-fluid">
+            <div className="">
         <div className="column4">
           <h3 className="h_copy"><img src="https://uploads-ssl.webflow.com/626c4dca54241075dfcab9dd/626c4dca5424106173caba01_logo_icon%403x.svg" alt="" />
             <br />Ready to get started with<br />
@@ -109,7 +109,7 @@ export default function App() {
                   </a>
                 </p>
                 <p>
-                  <a href='/' className='text-reset'>
+                  <a href='/LogIn' className='text-reset'>
                     Blog
                   </a>
                 </p>
@@ -128,9 +128,9 @@ export default function App() {
         <MDBCol>
         <div className='social-links'>
                   <p className="fw-bold mb-4">Follow Us</p>
-                  <a target="_bkank" href="https://www.facebook.com/" class="fa fa-facebook"></a>
-                  <a target="_bkank" href="https://www.twitter.com/" class="fa fa-twitter"></a>
-                  <a target="_bkank" href="https://www.linkedin.com/" class="fa fa-linkedin"></a>
+                  <a target="_bkank" href="https://www.facebook.com/" class="fa fa-facebook"> </a>
+                  <a target="_bkank" href="https://www.twitter.com/" class="fa fa-twitter">  </a>
+                  <a target="_bkank" href="https://www.linkedin.com/" class="fa fa-linkedin"> </a>
         </div>
         </MDBCol>
         </MDBRow>

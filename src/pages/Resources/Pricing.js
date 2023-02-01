@@ -1,5 +1,6 @@
 import React from 'react'
 import "../Resources/Resources.css";
+import Footer from '../Footer'
 
 function Pricing() {
     return (
@@ -12,7 +13,7 @@ function Pricing() {
                     <span className="slider round"></span>
                 </label>
             </div>
-
+            <Footer />
         </div>
     );
 }

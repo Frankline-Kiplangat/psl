@@ -7,7 +7,7 @@ function FAQ() {
         <div class="jumbotron">
             <h3 class="display-6">Frequently Asked Questions</h3>
             <div className="buttons">
-                <a href="/" className="button1">Contact us</a>
+                <a href="/Contact" className="button1">Contact us</a>
             </div>
             <br/>
             <div bg="grey" className="container">

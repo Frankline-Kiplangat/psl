@@ -1,7 +1,7 @@
 import React from 'react';
 import "../Authentication/LogIn.css"
 import {
-    MDBBtn, MDBContainer, MDBCheckbox, MDBCard, MDBCardBody, MDBRow, MDBCol, MDBInput
+    MDBContainer, MDBCheckbox, MDBCard, MDBCardBody, MDBRow, MDBCol, MDBInput
 } from 'mdb-react-ui-kit';
 
 function LogIn() {
@@ -23,14 +23,14 @@ function LogIn() {
                                 <MDBCheckbox name='flexCheck' id='flexCheckDefault' label='Remember me' />
                                 <a href="!#">Forgot password?</a>
                             </div>
-                            <a href="/" className="btn btn-primary" size=''>Login</a>
+                            <a href="/Login" className="btn btn-primary" size=''>Login</a>
                         </MDBCardBody>
                     </MDBCol>
                     <br/>
                     <MDBCol className='d-flex flex-column' md='6'>
                         <div className="d-flex" md="2"><p>Don’t have an account but want HIPAA compliant faxing today?</p>
                         </div>
-                        <a href="/" className='btn btn-primary' style={{ textAlign:"center"}} size=''>Create a free account</a>
+                        <a href="/Register" className='btn btn-primary' style={{ textAlign:"center"}} size=''>Create a free account</a>
                     </MDBCol>
                 </MDBRow>
             </MDBCard>

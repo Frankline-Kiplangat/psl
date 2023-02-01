@@ -9,10 +9,11 @@ import img6 from "./images/img6.png"
 function Home() {
   return (
     <div className="container">
+    <br /><br />
       <div className="row">
       <div className="col-sm-6">
         <h className="header1">The #1 HIPAA-Compliant Online Fax Service</h>
-        <br /><br />
+        <br />
         <div class="jumbotron">
           <p class="display-6">Healthcare providers: It's <br />time to upgrade your<br />faxing solution</p>
           <div className="details1">

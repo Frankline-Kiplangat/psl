@@ -13,7 +13,7 @@ function Contact() {
             <h3 class="display-6">Contact Us</h3>
             <div className="buttons">
                 <p style={{ fontWeight: "bold" }}>Hey there! What a pleasure. We can’t wait to connect.</p>
-                <a href="/" className="button1">Book a Demo</a>
+                <a href="/Contact" className="button1">Book a Demo</a>
             </div>
             <h3 class="display-5">Sales</h3>
             <div className="contact">
@@ -38,7 +38,7 @@ function Contact() {
                     <label required>Message</label>
                     <MDBTextArea rows={4} className="mb-4" required />
                     <div className="d-flex justify-content-center">
-                        <a action="submit" className="button1">Submit</a>
+                        <button action="submit" className="button1"> Submit</button>
                     </div>
                 </form>
             </div>

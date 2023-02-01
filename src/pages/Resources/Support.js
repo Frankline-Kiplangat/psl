@@ -5,6 +5,7 @@ import {
     MDBInput,
     MDBTextArea,
 } from 'mdb-react-ui-kit';
+import Footer from '../Footer'
 
 function Support() {
     return (
@@ -64,10 +65,11 @@ function Support() {
                     <br/>
 
                     <div className="d-flex">
-                        <a type="submit" className="button1">Submit</a>
+                        <button type="submit" className="button1">Submit</button>
                     </div>
                 </form>
             </div><br/>
+            <Footer />
         </div>
     );
 }
