@@ -21,7 +21,6 @@
     "web-vitals": "^2.1.4",
     "yarn": "^1.22.19"
   },
-  "homepage": "https://Frankline-Kiplangat.github.io/psl/Home",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
