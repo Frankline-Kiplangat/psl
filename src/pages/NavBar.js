@@ -9,7 +9,7 @@ const NavBar = () => {
   return (
     <Navbar fixed= "top" className="py-3" bg="light" expand="lg">
       <Container fluid>
-        <a href="/Home"><img src={logo} style={{ height: "6vh", marginLeft: "40px" , width: "150px" }} className="footer-logo" alt="" /></a>
+        <a href="/"><img src={logo} style={{ height: "6vh", marginLeft: "40px" , width: "150px" }} className="footer-logo" alt="" /></a>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav

@@ -22,7 +22,7 @@ function Home() {
           </div><br/><br/>
           <div className="buttons">
             <a href="/Contact" className="button1">Book a Demo</a>
-            <a href="https://www.youtube.com/" className="button2">Watch Video</a>
+            <a href="https://www.youtube.com/" target="_blank" className="button2">Watch Video</a>
           </div>
         </div>
       </div>

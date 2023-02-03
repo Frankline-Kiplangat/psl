@@ -43,10 +43,10 @@ p{
     font-size: smaller;
 }
 .line-break{
-    background-color: #9f3adf;
+    background-color: #3b0f57;
 }
 .vertical {
-    border-left: 1px solid rgb(82, 22, 110);
+    border-left: 1px solid rgb(54, 10, 75);
     height: 40px;
     position:absolute;}
 .solutions{
