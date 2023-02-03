@@ -26,15 +26,15 @@ function Contact() {
                 </MDBCardHeader>
                 <form>
                     <label required>Email</label>
-                    <MDBInput wrapperClass='mb-4' className="mb-4" type='E-mail' />
+                    <MDBInput wrapperClass='mb-4' className="mb-4" type='E-mail' required  />
                     <label Required>First name</label>
-                    <MDBInput wrapperClass='mb-4' className="mb-4" type='text' />
+                    <MDBInput wrapperClass='mb-4' className="mb-4" type='text' required  />
                     <label required>Last name</label>
-                    <MDBInput wrapperClass='mb-4' className="mb-4" type='text' />
+                    <MDBInput wrapperClass='mb-4' className="mb-4" type='text' required  />
                     <label required>Phone Number</label>
-                    <MDBInput wrapperClass='mb-4' className="mb-4" type='text' />
+                    <MDBInput wrapperClass='mb-4' className="mb-4" type='text' required  />
                     <label required>EMR</label>
-                    <MDBInput wrapperClass='mb-4' className="mb-4" type='text' />
+                    <MDBInput wrapperClass='mb-4' className="mb-4" type='text' required />
                     <label required>Message</label>
                     <MDBTextArea rows={4} className="mb-4" required />
                     <div className="d-flex justify-content-center">

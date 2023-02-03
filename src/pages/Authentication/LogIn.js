@@ -16,12 +16,12 @@ function LogIn() {
                                 <h1 className="h1">Sign In</h1>
                             </div>
                             <label>Email address</label>
-                            <MDBInput wrapperClass='mb-4' id='formControlLg' placeholder='user@medical.com' type='email' size="lg" />
+                            <MDBInput wrapperClass='mb-4' id='formControlLg' placeholder='user@medical.com' type='email' size="lg" required  />
                             <label>Password</label>
-                            <MDBInput wrapperClass='mb-4' id='formControlLg' placeholder='Password' type='password' size="lg" />
+                            <MDBInput wrapperClass='mb-4' id='formControlLg' placeholder='Password' type='password' size="lg" required />
                             <div className="d-flex justify-content-between mx-4 mb-4">
                                 <MDBCheckbox name='flexCheck' id='flexCheckDefault' label='Remember me' />
-                                <a href="!#">Forgot password?</a>
+                                <a href="login">Forgot password?</a>
                             </div>
                             <a href="/Login" className="btn btn-primary" size=''>Login</a>
                         </MDBCardBody>
