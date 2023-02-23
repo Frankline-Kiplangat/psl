@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Frankline-Kiplangat/psl/static/css/main.6f219d40.css",
-    "main.js": "/Frankline-Kiplangat/psl/static/js/main.8d643296.js",
+    "main.js": "/Frankline-Kiplangat/psl/static/js/main.b67250fa.js",
     "static/js/787.98123706.chunk.js": "/Frankline-Kiplangat/psl/static/js/787.98123706.chunk.js",
     "static/media/img19.png": "/Frankline-Kiplangat/psl/static/media/img19.5ed3b5f8c2fde0fa40df.png",
     "static/media/img21.png": "/Frankline-Kiplangat/psl/static/media/img21.150f8599a131cf7ad305.png",
@@ -26,11 +26,11 @@
     "static/media/img5.png": "/Frankline-Kiplangat/psl/static/media/img5.1de625e2418afac95e3e.png",
     "index.html": "/Frankline-Kiplangat/psl/index.html",
     "main.6f219d40.css.map": "/Frankline-Kiplangat/psl/static/css/main.6f219d40.css.map",
-    "main.8d643296.js.map": "/Frankline-Kiplangat/psl/static/js/main.8d643296.js.map",
+    "main.b67250fa.js.map": "/Frankline-Kiplangat/psl/static/js/main.b67250fa.js.map",
     "787.98123706.chunk.js.map": "/Frankline-Kiplangat/psl/static/js/787.98123706.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6f219d40.css",
-    "static/js/main.8d643296.js"
+    "static/js/main.b67250fa.js"
   ]
 }
