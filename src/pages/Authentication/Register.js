@@ -1,6 +1,5 @@
 import React from 'react';
 import {
-  MDBBtn,
   MDBContainer,
   MDBRow,
   MDBCol,
@@ -48,7 +47,7 @@ function Register() {
                 <MDBCheckbox name='flexCheck' value='' id='flexCheckDefault' label='Subscribe to our newsletter' />
               </div>
 
-              <MDBBtn className='mb-4' size='lg'>Register</MDBBtn>
+              <button className='btn btn-primary' size='lg'>Register</button>
 
             </MDBCol>
 
