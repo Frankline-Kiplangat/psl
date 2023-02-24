@@ -1,11 +1,7 @@
-// import logo from './logo.svg';
 import React from "react";
-import "./App.css";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 import NavBar from "./pages/NavBar";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import "bootstrap/dist/css/bootstrap.min.css";
 import Home from "./pages/Home";
-import Home2 from "./pages/Home2";
 import LogIn from "./pages/Authentication/LogIn";
 import Register from "./pages/Authentication/Register";
 import SenderFax from "./pages/Solutions/SenderFax";
@@ -19,58 +15,59 @@ import Partners from "./pages/Resources/Partners";
 import Mission from "./pages/About/Mission";
 import Careers from "./pages/About/Careers";
 import Pricing from "./pages/Resources/Pricing";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
 
 function App() {
   return (
-    <Router>
+    <BrowserRouter>
       <NavBar />
       <Switch>
-        <Route exact path="/">
+        <Route path="/" exact>
           <Home />
-          <Home2 />
         </Route>
-        <Route exact path="/login">
+        <Route path="/LogIn">
           <LogIn />
         </Route>
-        <Route exact path="/Register">
+        <Route path="/Register">
           <Register />
         </Route>
-        <Route exact path="/SenderFax">
+        <Route path="/SenderFax">
           <SenderFax />
         </Route>
-        <Route exact path="/SenderAI">
+        <Route path="/SenderAI">
           <SenderAI />
         </Route>
-        <Route exact path="/FaxAPI">
+        <Route path="/FaxAPI">
           <FaxAPI />
         </Route>
-        <Route exact path="/FAQ">
+        <Route path="/FAQ">
           <FAQ />
         </Route>
-        <Route exact path="/Contact">
+        <Route path="/Contact">
           <Contact />
         </Route>
-        <Route exact path="/Support">
+        <Route path="/Support">
           <Support />
         </Route>
-        <Route exact path="/Stories">
+        <Route path="/Stories">
           <Stories />
         </Route>
-        <Route exact path="/Partners">
+        <Route path="/Partners">
           <Partners />
         </Route>
-        <Route exact path="/Mission">
+        <Route path="/Mission">
           <Mission />
         </Route>
-        <Route exact path="/Careers">
+        <Route path="/Careers">
           <Careers />
         </Route>
-        <Route exact path="/Pricing">
+        <Route path="/Pricing">
           <Pricing />
         </Route>
       </Switch>
-  
-    </Router>
+    </BrowserRouter>
   );
 }
+
 export default App;
