@@ -1,6 +1,8 @@
 *{
     font-family: sans-serif;
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 
 }
 
@@ -240,7 +242,7 @@ h1{
     color: aliceblue;
     font-weight: bolder;
     font-size:20px;
-    padding: 100px;
+    padding: 50px;
 
 }
 ._copy h3{

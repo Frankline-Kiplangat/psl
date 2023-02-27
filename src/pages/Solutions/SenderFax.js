@@ -92,6 +92,7 @@ function SenderFax() {
                     <img src={img11} className="img11" alt="" />
                 </div>
             </div>
+            <br /><br />
             <div className="">
                 <h1 style={{ textAlign: "center", fontSize: "25px" }}>Frequently Asked <br />Questions</h1>
             </div>

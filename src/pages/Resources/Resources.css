@@ -15,8 +15,7 @@
     margin-top: 90px;    
 }
 .display-7{
-    height: 15vh;
-    margin-top: 90px;
+    margin-top: 50px;
 }
 .jumbotron h3{
     font-size: 30px;
@@ -28,7 +27,7 @@
     background-color: rgb(44, 8, 78);
 }
 .story1{
-    height: 35vh;
+    height: 45vh;
     background-color: whitesmoke;
 }
 .story1 h3{
@@ -67,7 +66,7 @@
     margin-left: 60px;
 }
 .col-sm-6 h3{
-    margin-top: 150px;
+    margin-top: 60px;
 }
 
 #img1{

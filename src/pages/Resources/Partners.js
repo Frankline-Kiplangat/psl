@@ -7,13 +7,11 @@ function Partners() {
     return (
         <div class="container-fluid">
             <div className="story1">
-                <h3 class="display-7">Partner with us<br />
+                <h3 class="display-7">Partner with us
                 </h3>
                 <p style={{ fontWeight: "bold", marginLeft: "60px" }}>By partnering with Medsender,
                     you can enable the future of healthcare automation.</p>
-                <div>
                     <a href="/Contact" className="button4">Contact Us</a>
-                </div>
             </div>
             <div className="row">
                 <div className="col-sm-6">

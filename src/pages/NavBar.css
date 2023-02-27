@@ -1,12 +1,12 @@
 
 #navbarScrollingDropdown{
-    margin-left: 20px;
     font-size: 15px;
     font-weight: 400;
 }
 h4{
     font-size: small;
 }
+
 .button{
     background-color: #5c2081;
     border: none;
@@ -17,16 +17,18 @@ h4{
     display: inline-block;
     font-size: 16px;
     cursor: pointer;
+    justify-items: end;
     border-radius: 10px;
     font-weight: 10px;
     font-weight: 500;
     transition: 350ms; 
-    margin-left: 50px;
+    /* margin-left: 50px; */
 }
 .log-in{
     font-weight: 500;
-    margin-left: 60px;
+    margin-left: 0px;
     color: #5c2081;
+    /* margin-left: 60px; */
 }
 h6{
     font-size: medium;
@@ -42,26 +44,20 @@ p{
 .resources{
     font-size: smaller;
 }
-.line-break{
-    background-color: #3b0f57;
-}
-.vertical {
-    border-left: 1px solid rgb(54, 10, 75);
-    height: 40px;
-    position:absolute;}
+
 .solutions{
-    margin-left: 250px;
+    margin-left: 0px;
+    justify-content: end;
 }
 @media only screen and (max-width:800px) {
     * {
       width: auto;
-      padding: 0;
     }
     * {
       width: auto;
     }
   }
-  @media only screen and (max-width:500px) {
+  @media only screen and (max-width:600px) {
     *{
       width: auto;
     }
