@@ -12,7 +12,7 @@ function Careers() {
                     <p style={{ fontWeight: "bold", marginLeft: "60px" }}>At Medsender, we are on a mission to improve the lives of<br/>
                         practitioners and their patients.</p>
                     <p style={{ fontWeight: "bold", marginLeft: "60px" }}>Come join us!</p>
-                    <a href="/" className="button">View Open Positions</a>
+                    <a href="/" style={{ marginLeft: "60px" }} className="button3">View Open Positions</a>
             </div><br/>
             <div className="row">
                     <div id="col6" className="col-md-4">
