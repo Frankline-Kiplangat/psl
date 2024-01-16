@@ -16,7 +16,7 @@ function LogIn() {
                                 <h1 className="h1">Sign In</h1>
                             </div>
                             <label>Email address</label>
-                            <MDBInput wrapperClass='mb-4' id='formControlLg' placeholder='user@medical.com' type='email' size="lg" required  />
+                            <MDBInput wrapperClass='mb-4' id='formControlLg' placeholder='user@medical.com' type='email' size="lg" required />
                             <label>Password</label>
                             <MDBInput wrapperClass='mb-4' id='formControlLg' placeholder='Password' type='password' size="lg" required />
                             <div className="d-flex justify-content-between mx-4 mb-4">
@@ -26,11 +26,11 @@ function LogIn() {
                             <a href="/Login" className="btn btn-primary" size=''>Login</a>
                         </MDBCardBody>
                     </MDBCol>
-                    <br/>
+                    <br />
                     <MDBCol className='d-flex flex-column' md='6'>
                         <div className="d-flex" md="2"><p>Don’t have an account but want HIPAA compliant faxing today?</p>
                         </div>
-                        <a href="/Register" className='btn btn-primary' style={{ textAlign:"center"}} size=''>Create a free account</a>
+                        <a href="/Register" className='btn btn-primary' style={{ textAlign: "center" }} size=''>Create a free account</a>
                     </MDBCol>
                 </MDBRow>
             </MDBCard>
