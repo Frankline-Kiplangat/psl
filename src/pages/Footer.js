@@ -128,9 +128,9 @@ export default function App() {
         <MDBCol>
         <div className='social-links'>
                   <p className="fw-bold mb-4">Follow Us</p>
-                  <a target="_bkank" href="https://www.facebook.com/" class="fa fa-facebook"> </a>
-                  <a target="_bkank" href="https://www.twitter.com/" class="fa fa-twitter">  </a>
-                  <a target="_bkank" href="https://www.linkedin.com/" class="fa fa-linkedin"> </a>
+                  <a target="_blank" href="https://www.facebook.com/" class="fa fa-facebook"> </a>
+                  <a target="_blank" href="https://www.twitter.com/" class="fa fa-twitter">  </a>
+                  <a target="_blank" href="https://www.linkedin.com/" class="fa fa-linkedin"> </a>
         </div>
         </MDBCol>
         </MDBRow>

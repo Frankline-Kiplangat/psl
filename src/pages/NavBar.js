@@ -51,8 +51,8 @@ function NavBar() {
             </Nav>
             <div>
               <Nav className='justify-content-end'>
-                <Nav.Link target="_blank" className="log-in" href="/LogIn">Log in</Nav.Link>
-                <a href="/Contact" target="_blank" className="button">Book a Demo</a>
+                <Nav.Link target="self" className="log-in" href="/LogIn">Log in</Nav.Link>
+                <a href="/Contact" target="self" className="button">Book a Demo</a>
               </Nav>
             </div>
           
